@@ -1,0 +1,21 @@
+f=open("mul.txt","r")
+data=f.read()
+print(data)
+f.close()
+print("***********************************")
+f=open("mul.txt","r")
+data=f.read(5)
+print(data)
+f.close()
+print("***********************************")
+f=open("mul.txt","r")
+data=f.readline()    # it gives first line
+print(data)
+data=f.readline()    # it gives second line
+print(data)
+f.close()
+print("***********************************")
+f=open("mul.txt","r")
+dataList=f.readlines()    #readlines it will give list
+print(dataList)
+f.close()
